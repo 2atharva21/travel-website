@@ -162,3 +162,11 @@ cursor: pointer;
     border: 1px solid transparent;
     transform:translateY(5px);
 }
+.thum img{
+    height: 50vh;
+    border-radius: 12px;
+}
+.title{
+    text-align: center;
+    
+}
