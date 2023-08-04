@@ -1,13 +1,14 @@
-const header =document.querySelector("header");
- 
-window.addEventListener ("scroll",function(){
-    header.classList.toggle ("sticky", window.scrollY > 0);
-})
-let menu=document.querySelector('#menu-icon');
+
+let menu=document.getElementById('menu-icon');
 let navbar=document.querySelector('.navbar');
 
-menu.onclick =() =>{
+menu.addEventListener('click', () => {
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('open');
+    // alert(1)
+}) 
+// =() =>{
+//     menu.classList.toggle('bx-x');
+//     navbar.classList.toggle('open');
 
-}
+// }

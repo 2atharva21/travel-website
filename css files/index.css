@@ -305,7 +305,7 @@ box-shadow: var(--box-shodow );
 color: var(--text-color );
     }
     .open {
-        left: 0;
+        right: -1%;
     }
 
 }
